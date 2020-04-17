@@ -42,7 +42,7 @@ import { zip, of } from 'rxjs';
 (() =>{
 
     // No tocar ========================================================
-    const SW_API = 'https://swapi.co/api';                     
+    const SW_API = 'https://swapi.dev/api';                     
     const getRequest = ( url: string ) => ajax.getJSON<any>(url);
     // ==================================================================
 
